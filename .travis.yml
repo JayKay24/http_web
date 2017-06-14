@@ -3,4 +3,4 @@ python:
 - "3.5"
 install:
 - pip install -r requirements.txt
-script: pytest tests\test_githubrepos.py
+script: python -m unittest discover

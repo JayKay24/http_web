@@ -5,3 +5,6 @@
 # This application makes use of the requests package which allows a Python
 # program to easily request information from a website and examine the response
 # returned.
+
+## Program Usage Commands
+   * display_repos

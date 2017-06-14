@@ -1,6 +1,6 @@
 import requests
 
-class GitHubRepos:
+class GithubRepos:
     def __init__(self):
         self.url = "https://api.github.com/search/repositories?q=language:python&sort=stars"
         

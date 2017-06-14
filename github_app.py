@@ -50,7 +50,7 @@ class MyInteractive (cmd.Cmd):
     def do_display_repos(self, args):
         """Usage: display_repos"""
         
-        repos.display_github_repos()
+        repos.display_popular_repos()
         
     def do_quit(self, args):
         """Quits out of Interactive Mode."""

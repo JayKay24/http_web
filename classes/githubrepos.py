@@ -20,6 +20,7 @@ class GithubRepos:
         This function requests and displays the most popular python projects on
         Github.
         """
+        self.display_greeting()
         # Make and API call to github and store the response object that's
         # returned.
         response = requests.get(self.url)
